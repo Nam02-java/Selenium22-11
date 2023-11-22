@@ -27,13 +27,13 @@ import static com.example.Selenium.Package02.CheckText.notification;
 @RestController
 @RequestMapping("/api/web")
 public class Selenium {
-    @GetMapping("/ttsfree_captcha_noForLoop_thread2")
+    @GetMapping("/ttsfree_captcha_noForLoop_thread")
     public ResponseEntity<?> ttsfree_captcha_noForLoop_Threads(@RequestParam Map<String, String> params) throws InterruptedException, IOException {
         WebDriverWait wait;
         List<WebElement> element_solve;
 
         String user_name = "nam02test"; // mô phỏng tên user
-        String user_password = "IUtrangmaimai02"; // mô phỏng password user
+        String user_password = "Matkhau123456"; // mô phỏng password user
         JavascriptExecutor js;
         WebElement Element_inputText;
         WebElement webElement;
